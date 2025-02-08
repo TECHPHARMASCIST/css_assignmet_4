@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background:  #F7FDFC;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.wrapper{
+    width: 80.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 81px;
+    margin-bottom: 81px;
+}
+.left{
+    width: 32%;
+}
+
+.right{
+    box-shadow: 0px 4px 50px 0px #0408131A;
+    width: 40.2%;
+    padding: 40px;
+    width: 580;
+    border-radius: 6px;
+
+}
+.left_content{
+    margin-top: 50px;
+}
+.left_content h1{
+    font-family: Brown;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    color: #000B0A;
+
+}
+
+.left_content p{
+    font-family: Brown;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #737373;
+    margin-top: 20px; 
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form_group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_control{
+    width: 238px;
+}
+.lbl{
+    font-family: Sofia Pro;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    color: #011C34;
+    margin-bottom: 8px;
+}
+.input_control{
+    width: 100%;
+    border-radius: 2px;
+    border-width: 3px;
+    padding-top: 14px ;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    border: 1px solid #F0F0F0;
+}
+.select_input{
+    width: 254px;
+}
+
+.input_control:focus{
+    outline: none;
+
+    border: 3px solid #2EC4B6
+}
+.single{
+    width:100%;
+    
+}
+.password_input_group{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    align-items: center;
+    padding: 14px 16px;
+}
+.input_password{
+    width: 100%;
+    
+    border: none;
+    outline: none;
+}
+.btn{
+    width: 100%;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    background: #2EC4B6;
+    outline: none;
+    border: none;
+    padding-top:16px ;
+    padding-bottom: 16px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.terms{
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-top: 16px;
+
+}
+.terms span{
+    text-decoration: underline;
+    color: #2EC4B6;
+
+}
+
+@media (max-width:760px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .form_group{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
